@@ -2,7 +2,8 @@ import pandas as pd
 import os
 
 print(__file__)
-df = pd.read_csv("./doit_pandas/data/gapminder.tsv", sep='\t')
+# df = pd.read_csv("/home/carpdiem/gitHub/PythonStudy/Doit_Pandas/data/gapminder.tsv", sep='\t')
+df = pd.read_csv("./Doit_Pandas/data/gapminder.tsv", sep='\t')
 
 print('\n #1. df.head()')
 print(df.head())
@@ -66,3 +67,18 @@ print(grouped_year_df_lifeExp.head())
 
 mean_lifeExp_by_year = grouped_year_df_lifeExp.mean()
 print(mean_lifeExp_by_year)
+
+multi_group_var = df.groupby(['year', 'continent'])[['lifeExp', 'gdpPercap']].mean()
+print(multi_group_var)
+
+print(type(multi_group_var))
+
+# 그룹화한 데이터 개수 세기
+print(df.groupby('continent')['country'].nunique())
+
+# 그래프 그리기
+import matplotlib.pyplot as plt 
+
+global_yearly_life_expectancy = df.groupby('year')['lifeExp'].mean()
+print(global_yearly_life_expectancy)
+global_yearly_life_expectancy.plot()
