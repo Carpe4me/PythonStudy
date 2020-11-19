@@ -3,5 +3,6 @@
     "debug.console.fontSize": 16,
     "markdown.preview.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "editor.fontLigatures": null
+    "editor.fontLigatures": null,
+    "python.pythonPath": "C:\\Dev\\Python\\Python38\\python.exe"
 }
