@@ -4,5 +4,5 @@
     "markdown.preview.fontSize": 16,
     "terminal.integrated.fontSize": 16,
     "editor.fontLigatures": null,
-    "python.pythonPath": "C:\\Dev\\Python\\Python38\\python.exe"
+    "python.pythonPath": "C:\\Dev\\anaconda3\\envs\\Quant\\python.exe"
 }
