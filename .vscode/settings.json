@@ -1,8 +1,11 @@
 {
-    "editor.fontSize": 16,
     "debug.console.fontSize": 16,
     "markdown.preview.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "editor.fontLigatures": null,
-    "python.pythonPath": "C:\\Dev\\anaconda3\\envs\\Quant\\python.exe"
+    "editor.fontLigatures": "D2Coding",
+    "python.pythonPath": "C:\\Dev\\Python\\Python38\\python.exe",
+    "editor.fontFamily": "'Bitstream Vera Sans Mono', Consolas, 'Courier New', monospace",
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 15
 }
